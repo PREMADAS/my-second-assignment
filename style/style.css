@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 
@@ -30,15 +31,15 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -50%); 
-    width: 450px; 
+    transform: translate(-40%, -50%);
+    width: 450px;
     z-index: 2;
 
 
 }
 
 .microphone {
-    position: relative; 
+    position: relative;
 
     z-index: 3;
 }
@@ -55,4 +56,3 @@
     font-weight: bold;
     box-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
 }
-
