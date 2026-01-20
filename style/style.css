@@ -3,3 +3,56 @@
     font-style: normal;
 }
 
+.hero-container {
+
+    position: relative;
+    width: 100%;
+    height: 600px;
+    /* আপনার প্রয়োজনমতো হাইট দিন */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%); 
+    width: 450px; 
+    z-index: 2;
+
+
+}
+
+.microphone {
+    position: relative; 
+
+    z-index: 3;
+}
+
+.badge {
+    position: absolute;
+    top: -90px;
+    right: -5px;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
+}
+
